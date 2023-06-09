@@ -91,7 +91,7 @@ public class AuthController {
     boolean usernameExists = user != null;
     return new ResponseEntity<Boolean>(usernameExists, HttpStatus.OK);
   }
-// /
+// //
   @PostMapping("/getAllDetails")
   public LanDetailsResponseModel getAllLanddetails(@RequestBody JSONObject  json, final HttpServletRequest request, HttpServletResponse response){
 
